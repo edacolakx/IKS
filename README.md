@@ -44,7 +44,9 @@ Sistem SQLite veritabanı kullanmaktadır. Veritabanı dosyası (`iks.sqlite`) p
 ## Arayüzler
 
 - Giriş Ekranı
+
   ![Giriş Ekranı](screenshots/GirisEkran.PNG)
+
 - Öğrenci Kayıt Ekranı
 - Ödeme Kayıt Ekranı
 - Dekont Ekranı
