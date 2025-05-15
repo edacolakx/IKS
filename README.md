@@ -59,6 +59,17 @@ Sistem SQLite veritabanı kullanmaktadır. Veritabanı dosyası (`iks.sqlite`) p
 
 - Ödenmiş taksitlerde güncelleme işlemi henüz aktif değil.
 
+## Katkıda Bulunanlar
+
+Bu proje, üç kişilik bir ekip tarafından geliştirilmiştir. Geliştirme sürecinde her bir ekip üyesi, projenin farklı yönlerine katkıda bulunmuştur:
+
+- Veritabanı tasarımı ve veri modellemesi
+- Kullanıcı arayüzü tasarımı ve Swing bileşenlerinin uygulanması
+- İş mantığı, raporlama ve genel sistem mimarisi
+- Öğrenci ve ödeme kayıt sistemlerinin entegrasyonu
+
+Proje, üniversite eğitimi sırasında ortak bir çalışma olarak tamamlanmıştır.
+
 ### `KULLANICILAR` Tablosu
 
 Kullanıcıların (personel) T.C. Kimlik No ve Şifre bilgilerini içerir.
