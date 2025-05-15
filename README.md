@@ -41,10 +41,35 @@ java -cp build/classes:sqlitejdbc-v056.jar KURS
 
 Sistem SQLite veritabanı kullanmaktadır. Veritabanı dosyası (`iks.sqlite`) proje ana dizininde bulunur.
 
-## Geliştirici Bilgileri
+## Arayüzler
 
-Bu proje [Geliştirici Adı] tarafından geliştirilmiştir.
+- Giriş Ekranı
+  ![Giriş Ekranı](screenshots/GirisEkran.png)
+- Öğrenci Kayıt Ekranı
+- Ödeme Kayıt Ekranı
+- Dekont Ekranı
 
-## Lisans
+## Bilinen Eksiklikler
 
-Bu proje [lisans bilgisi] altında lisanslanmıştır.
+- Ödenmiş taksitlerde güncelleme işlemi henüz aktif değil.
+
+### `KULLANICILAR` Tablosu
+
+Kullanıcıların (personel) T.C. Kimlik No ve Şifre bilgilerini içerir.
+
+- `tc_kimlik_no` (Primary Key)
+- `sifre`
+
+### `OGRENCIKAYDI` Tablosu
+
+Öğrenci kayıt bilgilerini tutar.
+
+- `tc_kimlik_no` (Primary Key)
+- Öğrenciye ait diğer bilgiler
+
+### `ODEME` Tablosu
+
+Ödeme bilgilerini içerir.
+
+- `tc_kimlik_no` (Foreign Key)
+- Taksit detayları

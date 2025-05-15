@@ -1,4 +1,3 @@
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import javax.swing.JOptionPane;
@@ -21,7 +20,7 @@ public class db {
        try
        {
            Class.forName("org.sqlite.JDBC");
-          Connection  conn=DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Eda\\Documents\\NetBeansProjects\\FINAL\\iks.sqlite");
+          Connection  conn=DriverManager.getConnection("jdbc:sqlite:iks.sqlite");
            return conn;
        }
        catch(Exception ex)
